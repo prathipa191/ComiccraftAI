@@ -1,0 +1,7 @@
+# ComiccraftAI
+AI-powered Comic Book Creator using Gemini 1.5 Flash + FastAPI
+
+Features:
+- Generate 6 panel comic stories
+- Jinja2 templates
+- FastAPI backend
