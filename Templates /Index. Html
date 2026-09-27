@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html><head><title>ComicCraftAI</title></head>
+<body style="font-family: sans-serif; text-align:center; padding:50px;">
+<h1>ComicCraft AI</h1>
+<p>Enter your story idea</p>
+<form action="/generate" method="post">
+<input name="prompt" placeholder="A cat superhero in space" style="padding:10px; width:300px;" required>
+<button type="submit" style="padding:10px;">Generate Comic</button>
+</form>
+</body></html>
