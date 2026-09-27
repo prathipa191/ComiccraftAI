@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html><head><title>Comic</title></head>
+<body style="font-family: sans-serif; padding:20px;">
+<h1>Comic for: {{prompt}}</h1>
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px;">
+{% for p in panels %}
+<div style="border:2px solid black; padding:15px;"><h3>Panel {{p.id}}</h3><p>{{p.text}}</p></div>
+{% endfor %}
+</div>
+<br><a href="/">Generate Again</a>
+</body></html>
